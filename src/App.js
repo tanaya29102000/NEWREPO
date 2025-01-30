@@ -34,7 +34,7 @@ const App = () => {
 
   return (
     <div className="app">
-      <h1>User Management Dashboard</h1>
+      <h1 className="head">User Management Dashboard</h1>
       <button className="add-user-btnn" onClick={handleAddUser}>
         Add User
       </button>
